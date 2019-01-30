@@ -73,7 +73,7 @@
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>D:\gdal800x64\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
     <LibraryPath>D:\gdal800x64\lib;D:\gdal800x64;D:\gdal800x64\bin;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
-    <ReferencePath>D:\CADZEMCplus\cad2shape\lib;$(VC_ReferencesPath_x64);</ReferencePath>
+    <ReferencePath>$(VC_ReferencesPath_x64);</ReferencePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -82,7 +82,7 @@
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>D:\gdal800x64\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
     <LibraryPath>D:\gdal800x64\lib;D:\gdal800x64;D:\gdal800x64\bin;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
-    <ReferencePath>D:\CADZEMCplus\cad2shape\lib;$(VC_ReferencesPath_x64);</ReferencePath>
+    <ReferencePath>$(VC_ReferencesPath_x64);</ReferencePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -152,9 +152,6 @@
       <AdditionalDependencies>D:\gdal800x64\lib\gdal_i.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
   <ItemGroup>
     <ClInclude Include="data_class.h" />
     <ClInclude Include="helper.h" />
