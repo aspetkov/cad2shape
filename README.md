@@ -12,6 +12,15 @@ http://www.gisinternals.com/query.html?content=filelist&file=release-1800-x64-de
 
 Download and compile boost for VS2013 64 bit.
 
+Config screen for GDAL
+![Screenshot](https://github.com/aspetkov/cad2shape/blob/master/vcdirectories.PNG)
+
+Config screen for Boost
+![Screenshot](https://github.com/aspetkov/cad2shape/blob/master/boostdirectory.PNG)
+
+![Screenshot](https://github.com/aspetkov/cad2shape/blob/master/boostlinker.PNG)
+
+
 ## Portable application ready for run
 
 Copy binx64 directory on hard disk.
@@ -23,8 +32,11 @@ Run cad2shap [path to directory with cad files (batch proccessing) or path to on
 # Samples
 d:\binx64 cad2shape d:\b\data //convert all cad files in directory
 
-Screen from Sample page:
+Screen:
 ![Screenshot](https://github.com/aspetkov/cad2shape/blob/master/startcad2shape.PNG)
+
+Result Screen:
+![Screenshot](https://github.com/aspetkov/cad2shape/blob/master/resultfromcad2shape.PNG)
 
 
 d:\binx64 cad2shape D:\b\Data\02511.cad
