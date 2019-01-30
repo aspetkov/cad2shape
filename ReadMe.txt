@@ -1,3 +1,6 @@
+# Full featured project with Visual Studio 2013, C++, GDAL OGR and boost/filesystem
+
+
 ========================================================================
     CONSOLE APPLICATION : vs2013 Project Overview
 ========================================================================
