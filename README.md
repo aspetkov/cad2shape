@@ -12,6 +12,8 @@ http://www.gisinternals.com/query.html?content=filelist&file=release-1800-x64-de
 
 Download and compile boost for VS2013 64 bit.
 
+###Open cad2shape.sln with VS 2013 and change paths from config screens to you custom paths
+
 Config screen for GDAL
 ![Screenshot](https://github.com/aspetkov/cad2shape/blob/master/vcdirectories.PNG)
 
