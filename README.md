@@ -44,3 +44,8 @@ Result Screen:
 d:\binx64 cad2shape D:\b\Data\02511.cad
 
 Shapefiles will reside in same directory as cad file.
+
+
+Bulgarian CAD Format (from Geodesy, Cartography and Cadastre Agency) Document
+
+http://www.cadastre.bg/sites/default/files/format_cad_0404_1.doc
