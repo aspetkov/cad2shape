@@ -29,7 +29,7 @@ Copy binx64 directory on hard disk.
 
 Run cmd promt and go to binx64. 
 
-Run cad2shap [path to directory with cad files (batch proccessing) or path to one cad file]
+Run cad2shap [path to directory with cad files (batch processing) or path to one cad file]
 
 # Samples
 d:\binx64 cad2shape d:\b\data //convert all cad files in directory
