@@ -23,6 +23,10 @@ Run cad2shap [path to directory with cad files (batch proccessing) or path to on
 # Samples
 d:\binx64 cad2shape d:\b\data //convert all cad files in directory
 
+Screen from Sample page:
+![Screenshot](https://github.com/aspetkov/cad2shape/blob/master/startcad2shape.PNG)
+
+
 d:\binx64 cad2shape D:\b\Data\02511.cad
 
 Shapefiles will reside in same directory as cad file.
