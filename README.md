@@ -2,9 +2,7 @@
 ## Convert bulgarian CAD format (from Geodesy, Cartography and Cadastre Agency) to Esri shapefiles 
 ### Full featured project with Visual Studio 2013, C++, STL,  GDAL OGR and boost/filesystem
 
-### Конвертор на българския CAD формат на Агенцията по кадастър към Esri shapefiles. В проекта се 
-### съдържа билдвана версия на продукта. Тя се копира на диска и се стартира exe файла с параметър
-### папката с CAD файловете. Не изисква инсталация. Приложението е portable application.
+#### Конвертор на българския CAD формат на Агенцията по кадастър към Esri shapefiles. В проекта се съдържа билдвана версия на продукта. Тя се копира на диска и се стартира exe файла с параметър папката с CAD файловете. Не изисква инсталация. Приложението е portable application.
 
 How to start development:
 
