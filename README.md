@@ -1,6 +1,10 @@
 # cad2shape
-## Convert bulgarian CAD format (from Geodesy, Cartography and Cadastre Agency) to shapefile 
-### Full featured project with Visual Studio 2013, C++,  GDAL OGR and boost/filesystem
+## Convert bulgarian CAD format (from Geodesy, Cartography and Cadastre Agency) to Esri shapefiles 
+### Full featured project with Visual Studio 2013, C++, STL,  GDAL OGR and boost/filesystem
+
+### Конвертор на българския CAD формат на Агенцията по кадастър към Esri shapefiles. В проекта се 
+### съдържа билдвана версия на продукта. Тя се копира на диска и се стартира exe файла с параметър
+### папката с CAD файловете. Не изисква инсталация. Приложението е portable application.
 
 How to start development:
 
@@ -27,7 +31,7 @@ Config screen for Boost
 
 Copy binx64 directory on hard disk.
 
-Run cmd promt and go to binx64. 
+Run cmd prompt and go to binx64. 
 
 Run cad2shap [path to directory with cad files (batch processing) or path to one cad file]
 
