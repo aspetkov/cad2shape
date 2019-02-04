@@ -38,7 +38,8 @@ int main (int argc, char* argv[])
 	SetConsoleOutputCP(1251); // установка кодовой страницы win-cp 1251 в поток вывода
 
 
-	cout << "Copyright(c) 2019 Asen Asenov" << '\n' << '\n';
+	cout << "Copyright(c) 2019 Asen Asenov" << '\n';
+	cout << "Email: aspetkov@abv.bg" << '\n' << '\n';
 	cout << "The MIT License(MIT)" << '\n';
 	cout << "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR" << '\n';
 	cout << "IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS" << '\n';
