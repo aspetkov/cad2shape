@@ -1,6 +1,6 @@
 # cad2shape
 ## Convert files from Bulgarian Cadastral Exchange Data Format (CAD format, from Geodesy, Cartography and Cadastre Agency) to Esri shapefiles 
-### Full featured project with Visual Studio 2013, C++, STL,  GDAL OGR and boost/filesystem
+### Project with Visual Studio 2013, C++, STL,  GDAL OGR and boost/filesystem
   
   
 #### BG (Конвертор на файлове от българския кадастрален формат за обмен на данни (CAD формат на Агенцията по кадастър) към Esri shapefiles. В проекта се съдържа билдвана версия на продукта. Тя се копира на диска и се стартира exe файла с параметър папката с CAD файловете. Не изисква инсталация. Приложението е portable application.)
@@ -26,7 +26,7 @@ Config screen for Boost
 ![Screenshot](https://github.com/aspetkov/cad2shape/blob/master/boostlinker.PNG)
 
 
-## Portable application ready for run
+## Application for run
 
 Copy binx64 directory on hard disk.
 
