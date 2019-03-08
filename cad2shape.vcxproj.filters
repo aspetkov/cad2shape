@@ -15,63 +15,69 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="targetver.h">
+    <ClInclude Include="src\data_class.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="data_class.h">
+    <ClInclude Include="src\helper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="helper.h">
+    <ClInclude Include="src\shapefileImoti.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="shapefileImoti.h">
+    <ClInclude Include="src\shapefileNadpisi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="shapefileNadpisi.h">
+    <ClInclude Include="src\shapefileOgrpimo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="shapefileOgrpimo.h">
+    <ClInclude Include="src\shapefilePrava.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="shapefilePrava.h">
+    <ClInclude Include="src\shapefileSgradi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="shapefileSgradi.h">
+    <ClInclude Include="src\shapefileShemi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="shapefileShemi.h">
+    <ClInclude Include="src\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cad2shape.cpp">
+    <ClCompile Include="src\cad2shape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="shapefileShemi.cpp">
+    <ClCompile Include="src\data_class.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="shapefileSgradi.cpp">
+    <ClCompile Include="src\helper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="shapefilePrava.cpp">
+    <ClCompile Include="src\helper_template.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="shapefileOgrpimo.cpp">
+    <ClCompile Include="src\shapefileImoti.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="shapefileNadpisi.cpp">
+    <ClCompile Include="src\shapefileNadpisi.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="shapefileImoti.cpp">
+    <ClCompile Include="src\shapefileOgrpimo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="helper_template.cpp">
+    <ClCompile Include="src\shapefilePrava.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="helper.cpp">
+    <ClCompile Include="src\shapefileSgradi.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="data_class.cpp">
+    <ClCompile Include="src\shapefileShemi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

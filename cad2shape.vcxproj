@@ -153,27 +153,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="data_class.h" />
-    <ClInclude Include="helper.h" />
-    <ClInclude Include="shapefileImoti.h" />
-    <ClInclude Include="shapefileNadpisi.h" />
-    <ClInclude Include="shapefileOgrpimo.h" />
-    <ClInclude Include="shapefilePrava.h" />
-    <ClInclude Include="shapefileSgradi.h" />
-    <ClInclude Include="shapefileShemi.h" />
-    <ClInclude Include="targetver.h" />
+    <ClInclude Include="src\data_class.h" />
+    <ClInclude Include="src\helper.h" />
+    <ClInclude Include="src\shapefileImoti.h" />
+    <ClInclude Include="src\shapefileNadpisi.h" />
+    <ClInclude Include="src\shapefileOgrpimo.h" />
+    <ClInclude Include="src\shapefilePrava.h" />
+    <ClInclude Include="src\shapefileSgradi.h" />
+    <ClInclude Include="src\shapefileShemi.h" />
+    <ClInclude Include="src\stdafx.h" />
+    <ClInclude Include="src\targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cad2shape.cpp" />
-    <ClCompile Include="data_class.cpp" />
-    <ClCompile Include="helper.cpp" />
-    <ClCompile Include="helper_template.cpp" />
-    <ClCompile Include="shapefileImoti.cpp" />
-    <ClCompile Include="shapefileNadpisi.cpp" />
-    <ClCompile Include="shapefileOgrpimo.cpp" />
-    <ClCompile Include="shapefilePrava.cpp" />
-    <ClCompile Include="shapefileSgradi.cpp" />
-    <ClCompile Include="shapefileShemi.cpp" />
+    <ClCompile Include="src\cad2shape.cpp" />
+    <ClCompile Include="src\data_class.cpp" />
+    <ClCompile Include="src\helper.cpp" />
+    <ClCompile Include="src\helper_template.cpp" />
+    <ClCompile Include="src\shapefileImoti.cpp" />
+    <ClCompile Include="src\shapefileNadpisi.cpp" />
+    <ClCompile Include="src\shapefileOgrpimo.cpp" />
+    <ClCompile Include="src\shapefilePrava.cpp" />
+    <ClCompile Include="src\shapefileSgradi.cpp" />
+    <ClCompile Include="src\shapefileShemi.cpp" />
+    <ClCompile Include="src\stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
