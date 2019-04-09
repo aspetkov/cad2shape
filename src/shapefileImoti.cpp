@@ -147,7 +147,7 @@ void ShapefileImoti::createShapefileIMOTI()
 			}
 			else if (f.name == "NTP")
 			{
-				int i = datarowPOZEMLIMOTI.VIDT;
+				int i = datarowPOZEMLIMOTI.NTP;
 				poFeature->SetField(n, i);
 			}
 			else if (f.name == "NTPOLD")
@@ -172,7 +172,7 @@ void ShapefileImoti::createShapefileIMOTI()
 			}
 			else if (f.name == "NOMER1")
 			{
-				const char * ch = datarowPOZEMLIMOTI.IDENT.c_str();
+				const char * ch = datarowPOZEMLIMOTI.NOMER1.c_str();
 				poFeature->SetField(n, ch);
 			}
 			else if (f.name == "KVARTAL")
@@ -202,7 +202,7 @@ void ShapefileImoti::createShapefileIMOTI()
 			}
 			else if (f.name == "ZACON")
 			{
-				int i = datarowPOZEMLIMOTI.VIDT;
+				int i = datarowPOZEMLIMOTI.ZACON;
 				poFeature->SetField(n, i);
 			}
 			else if (f.name == "KAT")
@@ -212,7 +212,7 @@ void ShapefileImoti::createShapefileIMOTI()
 			}
 			else if (f.name == "NVAST")
 			{
-				int i = datarowPOZEMLIMOTI.VIDT;
+				int i = datarowPOZEMLIMOTI.NVAST;
 				poFeature->SetField(n, i);
 			}
 			else if (f.name == "VAVOD")

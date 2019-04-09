@@ -188,7 +188,7 @@ void ShapefileShemi::createShapefileSHEMI()  //(string nameShapeFile, vector<str
 			}
 			else if (f.name == "DOPS")
 			{
-				const char * ch = datarowAPARTS.ADDRAP.c_str();
+				const char * ch = datarowAPARTS.DOPS.c_str();
 				poFeature->SetField(n, ch);
 			}
 			else if (f.name == "BEG_DATE")
